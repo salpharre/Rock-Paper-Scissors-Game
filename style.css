@@ -1,0 +1,13 @@
+/*add media query of centering and making scores in inline at 425 width*/
+@media (max-width: 430px) {
+    .scores {
+        justify-content: center;
+    }
+}
+
+/*align buttons at 375 width*/
+/* @media (min-width: 375px) {
+    .row-btn {
+        align-items: center;
+    }
+} */

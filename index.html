@@ -21,33 +21,31 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        Computer
-                    </div>
+            <div class="col-md-8">
+                <div class="row justify-content-center">
+                    Computer
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     3, 2, 1
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <button type="button" class="btn btn-primary">Rock</button>
+                <div class="row mx-auto row-btn">
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary rock">Rock</button>
                     </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-primary">Paper</button>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary paper">Paper</button>
                     </div>
-                    <div class="col">
-                        <button type="button" class="btn btn-primary">Scissors</button>
+                    <div class="col-4 scissors-btn">
+                        <button type="button" class="btn btn-primary scissors">Scissors</button>
                     </div>
                 </div>
             </div>
-            <!--make it so this col stacks at a certain screen width below other col-->
-            <div class="col">
-                <div class="row">
+            <!--this col stacks at md screen width below top col-->
+            <div class="col-md-4">
+                <div class="row scores">
                     Computer Score: <div id="computer-score">0</div>
                 </div>
-                <div class="row">
+                <div class="row scores">
                     Your Score: <div id="user-score">0</div>
                 </div>
             </div>
