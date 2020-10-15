@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--External CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--CDN jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ed341436e0.js" crossorigin="anonymous"></script>
+    <!--External JS file-->
+    <script src="./game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        Computer
+                    </div>
+                </div>
+                <div class="row">
+                    3, 2, 1
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-primary">Rock</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary">Paper</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary">Scissors</button>
+                    </div>
+                </div>
+            </div>
+            <!--make it so this col stacks at a certain screen width below other col-->
+            <div class="col">
+                <div class="row">
+                    Computer Score: <div id="computer-score">0</div>
+                </div>
+                <div class="row">
+                    Your Score: <div id="user-score">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
